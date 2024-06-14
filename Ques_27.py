@@ -1,5 +1,5 @@
 # Write a program in python that converts a string into a list of its characters
-str=input("Enter the string ")
+str_1=input("Enter the string ")
 list1=[]                             
 j=0
 while j<len(str):

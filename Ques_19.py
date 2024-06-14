@@ -1,10 +1,10 @@
 # Write a python program that removes all punctuation from a given string.
 
-str = input("Enter a string with punctuation: ")
+str_1 = input("Enter a string with punctuation: ")
 punctuation_chars = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
 cleaned_string = ""
 
-for i in str:
+for i in str_1:
     
     if i not in punctuation_chars:
         

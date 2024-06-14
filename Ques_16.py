@@ -1,9 +1,9 @@
 # Write a program in python that counts the frequency of each character in a string.
-str = input("Enter a string: ")
+str_1 = input("Enter a string: ")
 frequency_dict = {}
 i = 0
-while i < len(str):
-    char = str[i]
+while i < len(str_1):
+    char = str_1[i]
     if char in frequency_dict:
         frequency_dict[char] += 1
     else:
