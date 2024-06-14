@@ -1,0 +1,14 @@
+# Write a python program that removes all punctuation from a given string.
+
+str = input("Enter a string with punctuation: ")
+punctuation_chars = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+cleaned_string = ""
+
+for i in str:
+    
+    if i not in punctuation_chars:
+        
+        cleaned_string = cleaned_string+i
+
+
+print("String without punctuation:", cleaned_string)
