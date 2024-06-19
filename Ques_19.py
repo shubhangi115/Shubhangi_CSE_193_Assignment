@@ -10,5 +10,4 @@ for i in str_1:
         
         cleaned_string = cleaned_string+i
 
-
 print("String without punctuation:", cleaned_string)
